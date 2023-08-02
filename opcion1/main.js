@@ -34,7 +34,7 @@ let originalData;
 let title = svg.append("text")
     .attr("class", "title")
     .text("Football World Cup winners count to selected date")
-    .attr("transform", `translate(${margin.left+20},${30})`)
+    .attr("transform", `translate(${(width - margin.right - margin.left - "Football World Cup winners count to selected date".length)/3},${30})`)
 
 const transformarTiempo = d3.timeParse("%Y")
 
@@ -133,7 +133,7 @@ function slider() {
             .attr('width', width * 0.8)
             .attr('height', 100)
             .append('g')
-            .attr('transform', 'translate(30,30)');
+            .attr('transform', 'translate(15,30)');
 
         gTime.call(sliderTime);  // invocamos el slider en el contenedor
 
