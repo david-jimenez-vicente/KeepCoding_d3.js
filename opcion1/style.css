@@ -1,0 +1,14 @@
+rect.barras {
+    fill: steelblue;
+}
+
+.barras:hover {
+  fill: darkblue;
+}
+
+text.title {
+    font-size: larger;
+    font-weight: light;
+    font-family: Arial, Helvetica, sans-serif;
+    fill: darkred;
+}
