@@ -1,0 +1,34 @@
+p#titulo {
+    font-size: x-large;
+    font-weight: 300;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkred;
+    background-color: lightgrey;
+}
+
+
+.DiCaprio {
+    fill: none;
+    stroke: purple;
+    stroke-width: 2;
+}
+
+.leyenda {
+    fill: purple;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: normal;
+    font-weight: lighter;
+}
+
+.delimitador {
+    stroke: grey;
+    stroke-width: 1;
+    stroke-dasharray: 5 10;
+}
+
+.leyenda-delimitador {
+    fill: grey;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: normal;
+    font-weight: lighter;
+}
