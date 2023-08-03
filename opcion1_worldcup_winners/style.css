@@ -6,9 +6,9 @@ rect.barras {
   fill: darkblue;
 }
 
-text.title {
+p#titulo {
     font-size: large;
     font-weight: light;
     font-family: Arial, Helvetica, sans-serif;
-    fill: darkred;
+    color: darkred;
 }

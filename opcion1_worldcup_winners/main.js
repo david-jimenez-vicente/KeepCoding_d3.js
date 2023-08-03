@@ -31,10 +31,6 @@ let years;
 let winners;
 let originalData;
 
-let title = svg.append("text")
-    .attr("class", "title")
-    .text("Football World Cup winners count to selected date")
-    .attr("transform", `translate(${(width - margin.right - margin.left - "Football World Cup winners count to selected date".length)/3},${30})`)
 
 const transformarTiempo = d3.timeParse("%Y")
 
