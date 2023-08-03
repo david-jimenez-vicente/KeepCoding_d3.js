@@ -31,16 +31,11 @@ let years;
 let winners;
 let originalData;
 
-
-const transformarTiempo = d3.timeParse("%Y")
-
 // data:
 d3.csv("WorldCup.csv").then(data => {
     // 2. aquí hay que poner el código que requiere datos para generar la gráfica
     originalData = data;
-    years = data.map(d => d.Year)
-    yearsSlider = data.map(d => transformarTiempo(d.Year))
-    winners = data.map(d => d.Winner)
+    years = data.map(d => d.Year)winners = data.map(d => d.Winner)
     // update:
     update(data)
     slider()
