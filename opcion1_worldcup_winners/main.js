@@ -51,10 +51,10 @@ function update(data) {
 
     // No quiero que los ejes cambien con los valores seleccionados por el slider, así dejamos fijos los dominios.
     x.domain(winners)
-    y.domain([0,6])
+    y.domain([0,8])
 
     // Ahora los ticks
-    yAxis.ticks(6)
+    yAxis.ticks(8)
 
     // Llamamos a los ejes
     xAxisGroup.call(xAxis)
