@@ -5,7 +5,7 @@ Consta de 2 ejercicios de final de asignatura.
 Necesitas bajar todos los archivos de la carpeta del ejercicio seleccionada, ponerlos en el mismo directorio y ejecutar index.html en tu navegador favorito.
 
 Repository created for the Modern Data Visualization with d3.js
-It contains 2 exercisse for the final project.
+It contains 2 exercises for the final project.
 You need to download all the files in the chosen exercise folder, put them together in the same directory, and run index.html on your favorite web browser.
 
 · opcion1_worldcup_winners es un ejercicio para analizar un dataset con los ganadores de todos los mundiales de fútbol FIFA. Añade interactividad a través de una barra deslizadora
